@@ -1,0 +1,40 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url(https://wallpaperaccess.com/full/3518775.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#convert{
+    background-color: aquamarine;
+}
+
+#convert:hover{
+    background-color: green;
+}
+
+h1{
+    font-family: sans-serif;
+    color: darkred;
+}
+
+input{
+
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: brown;
+    font-family: cursive;
+}
+
+button{
+    padding: 10px;
+    font-size: 1.4em;
+    color: black;
+}
